@@ -1,0 +1,124 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <_WebToolingArtifacts Remove="Properties\launchSettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Properties\launchSettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\ApplicationKeys\GenerateKeys.cshtml" />
+    <None Include="Views\Dashboard\Dashboard.cshtml" />
+    <None Include="Views\Error\ErrorView.cshtml" />
+    <None Include="Views\Home\About.cshtml" />
+    <None Include="Views\Home\Contact.cshtml" />
+    <None Include="Views\Home\Index.cshtml" />
+    <None Include="Views\Home\Privacy.cshtml" />
+    <None Include="Views\Login\Login.cshtml" />
+    <None Include="Views\RegisterUser\Create.cshtml" />
+    <None Include="Views\ServicesStore\Details.cshtml" />
+    <None Include="Views\ServicesStore\Service.cshtml" />
+    <None Include="Views\Shared\Error.cshtml" />
+    <None Include="Views\Shared\_Layout.cshtml" />
+    <None Include="Views\Shared\_LayoutDashboard.cshtml" />
+    <None Include="Views\Shared\_LoginLayout.cshtml" />
+    <None Include="Views\Shared\_ValidationScriptsPartial.cshtml" />
+    <None Include="wwwroot\assets\fonts\themify.svg" />
+    <None Include="wwwroot\assets\js\bootstrap-checkbox-radio.js" />
+    <None Include="wwwroot\assets\js\bootstrap-notify.js" />
+    <None Include="wwwroot\assets\js\bootstrap.min.js" />
+    <None Include="wwwroot\assets\js\chartist.min.js" />
+    <None Include="wwwroot\assets\js\demo.js" />
+    <None Include="wwwroot\assets\js\jquery-1.10.2.js" />
+    <None Include="wwwroot\assets\js\paper-dashboard.js" />
+    <None Include="wwwroot\assets\sass\paper-dashboard.scss" />
+    <None Include="wwwroot\assets\sass\paper\mixins\_buttons.scss" />
+    <None Include="wwwroot\assets\sass\paper\mixins\_cards.scss" />
+    <None Include="wwwroot\assets\sass\paper\mixins\_chartist.scss" />
+    <None Include="wwwroot\assets\sass\paper\mixins\_icons.scss" />
+    <None Include="wwwroot\assets\sass\paper\mixins\_inputs.scss" />
+    <None Include="wwwroot\assets\sass\paper\mixins\_labels.scss" />
+    <None Include="wwwroot\assets\sass\paper\mixins\_navbars.scss" />
+    <None Include="wwwroot\assets\sass\paper\mixins\_sidebar.scss" />
+    <None Include="wwwroot\assets\sass\paper\mixins\_tabs.scss" />
+    <None Include="wwwroot\assets\sass\paper\mixins\_transparency.scss" />
+    <None Include="wwwroot\assets\sass\paper\mixins\_vendor-prefixes.scss" />
+    <None Include="wwwroot\assets\sass\paper\_alerts.scss" />
+    <None Include="wwwroot\assets\sass\paper\_buttons.scss" />
+    <None Include="wwwroot\assets\sass\paper\_cards.scss" />
+    <None Include="wwwroot\assets\sass\paper\_chartist.scss" />
+    <None Include="wwwroot\assets\sass\paper\_checkbox-radio.scss" />
+    <None Include="wwwroot\assets\sass\paper\_dropdown.scss" />
+    <None Include="wwwroot\assets\sass\paper\_footers.scss" />
+    <None Include="wwwroot\assets\sass\paper\_inputs.scss" />
+    <None Include="wwwroot\assets\sass\paper\_misc.scss" />
+    <None Include="wwwroot\assets\sass\paper\_mixins.scss" />
+    <None Include="wwwroot\assets\sass\paper\_navbars.scss" />
+    <None Include="wwwroot\assets\sass\paper\_responsive.scss" />
+    <None Include="wwwroot\assets\sass\paper\_sidebar-and-main-panel.scss" />
+    <None Include="wwwroot\assets\sass\paper\_tables.scss" />
+    <None Include="wwwroot\assets\sass\paper\_typography.scss" />
+    <None Include="wwwroot\assets\sass\paper\_variables.scss" />
+    <None Include="wwwroot\images\banner1.svg" />
+    <None Include="wwwroot\images\banner2.svg" />
+    <None Include="wwwroot\images\banner3.svg" />
+    <None Include="wwwroot\images\banner4.svg" />
+    <None Include="wwwroot\js\custom.js" />
+    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\js\site.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\npm.js" />
+    <None Include="wwwroot\lib\bootstrap\LICENSE" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\LICENSE.md" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.90" />
+    <PackageReference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform" Version="3.6.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite" Version="5.0.8" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="2.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.1.4" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+</Project>
